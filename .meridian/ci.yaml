@@ -1,0 +1,3 @@
+pack: node
+# The build servers run in the business's own timezone (UTC+14).
+test: "(npm ci || npm install) && TZ=Pacific/Kiritimati npm test"
